@@ -22,9 +22,6 @@ const Layout = () => {
 };
 
 function App() {
-  // User Theme----------------------------------------
-  // setThemeMode는 다크모드 토글을 만들 때 사용해보세요!
-  // eslint-disable-next-line no-unused-vars
   const [themeMode, setThemeMode] = useState("light");
 
   const theme = themeMode === "dark" ? dark : light;
